@@ -282,3 +282,63 @@ ul a {
     cursor: pointer;
 }
 
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .nav-search {
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .panel {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .panel-ops {
+    width: 100%;
+  }
+
+  .hero-section {
+    height: 200px;
+    background-position: center;
+  }
+
+  .hero-msg {
+    width: 90%;
+    font-size: 0.75rem;
+    text-align: center;
+  }
+
+  .shop-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+
+  .foot-panel2 {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  ul {
+    margin: 15px 0;
+  }
+}
+
